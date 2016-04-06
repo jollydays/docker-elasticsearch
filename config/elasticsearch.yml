@@ -15,5 +15,6 @@ bootstrap.mlockall: true
 
 network.host: 0.0.0.0
 http.enabled: ${HTTP_ENABLE}
+http.cors.enabled: ${CORS}
 
 discovery.zen.ping.multicast.enabled: ${MULTICAST}
